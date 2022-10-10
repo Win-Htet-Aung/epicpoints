@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "epicpoints"
-version = "0.1.1"
+version = "0.1.2"
 description = "Utilization functions of point on a 2D plane"
 authors = ["Win Htet Aung <whaung1998@gmail.com>"]
 readme = "README.md"
