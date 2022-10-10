@@ -21,7 +21,7 @@ jobs:
       - name: Configure poetry
         env:
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
-        run:
+        run: |
           poetry config virtualenvs.in-project true
           poetry config repositories.test-pypi https://test.pypi.org/legacy/
           poetry config pypi-token.test-pypi $PYPI_TOKEN
