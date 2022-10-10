@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "epicpoints"
-version = "0.1.0"
+version = "0.1.1"
 description = "Utilization functions of point on a 2D plane"
 authors = ["Win Htet Aung <whaung1998@gmail.com>"]
 readme = "README.md"
@@ -10,5 +10,5 @@ python = "^3.10"
 
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
